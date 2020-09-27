@@ -173,22 +173,22 @@ d3.csv("assets/data/data.csv").then(function(data, err) {
     .classed("axis-text", true)
     .text("Obese (%)");
 
-    var smokesLabel = chartGroup.append("text")
-    .attr("transform", "rotate(-90)")
-    .attr("y", 20 - margin.left)
-    .attr("x", 0 - (height / 2))
-    .attr("dy", "1em")
-    .classed("axis-text", true)
-    .text("Smokes (%)");
+    // var smokesLabel = chartGroup.append("text")
+    // .attr("transform", "rotate(-90)")
+    // .attr("y", 20 - margin.left)
+    // .attr("x", 0 - (height / 2))
+    // .attr("dy", "1em")
+    // .classed("axis-text", true)
+    // .text("Smokes (%)");
 
-    var healthcareLabel = chartGroup.append("text")
-    .attr("transform", "rotate(-90)")
-    .attr("y", 40 - margin.left)
-    .attr("x", 0 - (height / 2))
-    .attr("dy", "1em")
-    .classed("axis-text", true)
-    .text("Lacks Healthcare (%)");
-  // updateToolTip function above csv import
+  //   var healthcareLabel = chartGroup.append("text")
+  //   .attr("transform", "rotate(-90)")
+  //   .attr("y", 40 - margin.left)
+  //   .attr("x", 0 - (height / 2))
+  //   .attr("dy", "1em")
+  //   .classed("axis-text", true)
+  //   .text("Lacks Healthcare (%)");
+  // // updateToolTip function above csv import
   var circlesGroup = updateToolTip(chosenXAxis, circlesGroup);
 
   // x axis labels event listener
