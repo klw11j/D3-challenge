@@ -1,4 +1,4 @@
-# D3 Homework - Data Journalism and D3
+# Health Risk Analysis using Data Journalism and D3
 
 
 ## Background
